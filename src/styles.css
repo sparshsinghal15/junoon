@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Lato:wght@400;700&family=Raleway&family=Tenali+Ramakrishna&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js");
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: #302166;
+}

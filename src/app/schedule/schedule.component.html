@@ -1,0 +1,20 @@
+<div class="flex-container">
+    <div class="container-head">
+        <div id="heading">Upcoming Events</div>
+    </div>
+</div>
+    
+<div class="flex-container">
+    <div class="container">
+        <div *ngFor="let place of places">
+            <div fxLayout="row" fxLayoutGap="0" fxLayoutAlign="spaced-around center">
+                <div class="item" fxFlex="30">
+                    {{place.name}}
+                </div>
+                <div class="item" fxFlex="70">
+                    {{place.status}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
